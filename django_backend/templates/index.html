@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assamese OCR</title>
+</head>
+<body>
+    <h1>Upload Assamese Image for OCR</h1>
+    <form method="post" enctype="multipart/form-data">
+        <input type="file" name="file">
+        <input type="submit" value="Upload and OCR">
+    </form>
+
+    {% if predicted_text %}
+    <h2>Predicted Text:</h2>
+    <p>{{ predicted_text }}</p>
+    {% endif %}
+</body>
+</html> 

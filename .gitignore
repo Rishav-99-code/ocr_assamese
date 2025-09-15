@@ -1,0 +1,48 @@
+# Python-related files
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.env
+*.venv
+*.egg
+*.egg-info/
+*.db
+
+# Django-related files
+*.sqlite3
+
+# Node.js-related files
+node_modules/
+*.log
+
+# Environment-specific files
+.env
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Data files
+*.data
+*.csv
+*.json
+*.xml
+*.h5
+*.pkl
+*.zip
+*.tar.gz
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.ico
+*.svg
